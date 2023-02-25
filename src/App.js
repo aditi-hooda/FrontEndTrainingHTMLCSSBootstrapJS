@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.scss';
-import Routes from './Routes/Routes';
+import 'bootstrap';
+import SideBar from './Views/Layout/SideBar/SideBar';
 
 function App() {
   return (
     <div>
-      <Routes />
+      {/* <Routes /> */}
+      <SideBar/>
     </div>
   );
 }
